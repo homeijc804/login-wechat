@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+}
+.wc-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 300px;
+	height: 250px;
+	border-radius: 8px;
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+}
+.wc-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.wc-text-big {
+	font-family: serif;
+	font-size: 17px;
+	padding: 0;
+	margin: 0;
+}
+.wc-text-small {
+	font-family: serif;
+	font-size: 10px;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+.user-name {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+.check-box {
+	padding: 0;
+	margin: 3px 0 0 0;
+}
+label {
+	font-family: serif;
+	font-weight: 700;
+	font-size: 14px;
+}
+[type=text] {
+	font-weight: 700;
+	width: 250px;
+	height: 40px;
+	outline: none;
+	border: 2px solid skyblue;
+	border-radius: 8px;
+	text-align: center;
+}
+[type=text]:hover {
+	border: 2px solid lime;
+}
+[type=checkbox] {
+	position: relative;
+	top: -1px;
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+}
+.s {
+	font-size: 14px;
+}
+.btn {
+	font-weight: 700;
+	width: 100px;
+	height: 40px;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	background: blue;
+	color: white;
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+.btn:active {
+	background: red;
+}
+.link {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+.ss {
+	font-family: serif;
+	font-size: 15px;
+}
+a {
+	font-family: serif;
+	font-size: 14px;
+	text-decoration: none;
+}
